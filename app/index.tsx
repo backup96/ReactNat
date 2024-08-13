@@ -10,7 +10,7 @@ export default function App() {
         Aora adso
       </Text>
       <StatusBar style='auto'/>
-      <Link href={'/profile'} style={{ color: 'blue'}}>Go to profile</Link>
+      <Link href="/home" style={{ color: 'blue'}}>Go to home</Link>
     </View>
   );
 }
