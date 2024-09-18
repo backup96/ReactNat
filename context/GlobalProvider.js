@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, useEffect, Children } from "react";
 import { getCurrentUser } from "../lib/appwrite";
-import { Flag } from "react-native-appwrite";
 
 const GlobalContext = createContext();
 export const useGlobalContext = () => useContext(GlobalContext);

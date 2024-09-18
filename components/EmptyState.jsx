@@ -16,11 +16,6 @@ const EmptyState = ({ title, subtitle }) => {
         {title}
       </Text>
       <Text className="font-pmedium text-sm text-gray-100">{subtitle}</Text>
-      
-      <CustomButton
-        title="Create video"
-        containerStyles='w-full my-5'
-      />
     </View>
   );
 }
